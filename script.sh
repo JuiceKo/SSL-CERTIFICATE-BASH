@@ -41,4 +41,4 @@ EOF
 
 openssl req -new -key private/$DOMAIN.key -sha256 -out csr/$DOMAIN.csr -config csr/$DOMAIN.conf
 
- openssl ca -config root-ca.conf -notext -in csr/$DOMAIN.csr -out certs/$DOMAIN.crt -extensions req_ext -extfile csr/$DOMAIN.conf
+openssl ca -config root-ca.conf -notext -in csr/$DOMAIN.csr -out certs/$DOMAIN.crt -extensions req_ext -extfile csr/$DOMAIN.conf
