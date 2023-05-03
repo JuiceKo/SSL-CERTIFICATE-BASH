@@ -1,9 +1,14 @@
 # SSL-CERTIFICATE-BASH
 
-This Script can be use if you follow this tutorial https://www.youtube.com/watch?v=nOSl4dmywe8 until the step 6. 
-When you are at this step, you have to create certificate for each website / server
+Both script are made thanks to : https://www.youtube.com/watch?v=nOSl4dmywe8
 
-This script do it for you
+
+#TO USE IT :
+
+First use the Creation_CA script. It will create a certificate autority for you.
+All you need is to give a password for your key.
+
+When you are done, you can create certificate for your Domain (website, server, etc....)
 
 #TO USE IT :
 
