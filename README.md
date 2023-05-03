@@ -7,7 +7,7 @@ TO USE IT :
 
 First use the Creation_CA script. It will create a certificate autority for you.
 All you need is to give a password for your key.
-You can modify the country, organization name, email adress and things like that in the script. 
+You can modify the country, state, organization, etc... in #Defaults in the script
 
 When you are done, you can create certificate for your Domain (website, server, etc....)
 
