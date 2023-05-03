@@ -6,7 +6,6 @@ then
   exit 1
 fi
 
-# Demande à l'utilisateur d'entrer une adresse IP
 read -p "IP ADDRESS : " ipAddress
 
 DOMAIN=$1
