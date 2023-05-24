@@ -13,7 +13,7 @@ When you are done, you can create certificate for your Domain (website, server, 
 
 TO USE IT :
 
-./script DOMAIN_NAME
+> ./certificat.sh DOMAIN_NAME
 
 After they will ask you the ip address, give it.
 
